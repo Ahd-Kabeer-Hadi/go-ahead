@@ -180,8 +180,11 @@ a.meanmenu-reveal {
   background: #fff;
 }
 .mean-container .mean-bar::before {
-  color: #fff;
-  content: "Euildint";
+  color: transparent;
+  content: "Go ahead";
+  background: url('/assets/images/footer/footer-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
   font-size: 28px;
   font-weight: 600;
   left: 10px;
