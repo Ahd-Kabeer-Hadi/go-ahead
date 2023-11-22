@@ -37,6 +37,7 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="all">
     <!-- responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
 
@@ -86,18 +87,32 @@
     </div>
 
     <!--Mobile Menu Area -->
-    <div class="mobile-menu-area fixed-top d-sm-block d-md-block d-lg-none ">
-      <div class="mobile-menu">
-        <nav class="Edulin_menu">
-          <ul class="nav_scroll">
-
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+    <div class="fixed-top d-sm-block d-md-block d-lg-none bg-theme">
+      <nav class="navbar sticky-top navbar-expand-lg bg-theme">
+        <a class="navbar-brand p-3	" href="index.html">
+          <img src="assets/images/mobile-menu-logo.svg" width="100%" alt="">
+    
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" style="color: white;"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end mobile-nav-items-wrapper">
+            <li class="nav-item active">
+              <a class="nav-link mobile-nav-items" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav-items" href="about.html">About</a>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav-items" href="service.html">Services</a>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav-items" href="contact.html">Contact Us</a>
+            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
     <!--==================================================-->
     <!-- End Euildint Header Area -->
@@ -155,27 +170,10 @@
               </div>
             </div>
             <div class="about-content wow animate__slideInUp">
-              <div class="about-discribtion">
+              <div class="about-discribtion pb-3 mb-30">
                 <p>
                   Go Ahead End-to-End Project & Biz Support is a dynamic and innovative venture dedicated to providing end-to-end project management and technical support consultancy. With a focus on serving small subcontractors and companies in the construction and IT sectors across the Middle East, including Saudi Arabia, Bahrain, UAE, Qatar, Oman, Kuwait, and India, we strive to be a trusted partner in ensuring successful and timely project completion.
                 </p>
-              </div>
-              <!-- start process bar -->
-              <div class="process-ber-plugin">
-                <!-- <span class="process-bar">Customer Satisficed </span>
-							<div id="bar1" class="barfiller">
-								<div class="tipWrap" style="display: inline;">
-									<span class="tip" style="left: 468.814px; transition: left 7s ease-in-out 0s;">78%</span>
-								</div>
-								<span class="fill" data-percentage="78" style="background: rgb(22, 181, 151); width: 505.791px; transition: width 7s ease-in-out 0s;"></span>
-							</div>  
-							<span class="process-bar">Residential Roofing</span>
-							<div id="bar2" class="barfiller">
-								<div class="tipWrap" style="display: inline;">
-									<span class="tip" style="left: 403.254px; transition: left 7s ease-in-out 0s;">55%</span>
-								</div>
-								<span class="fill my-class" data-percentage="55" style="background: rgb(22, 181, 151); width: 438.352px; transition: width 7s ease-in-out 0s;"></span>
-							</div> -->
               </div>
               <!-- End process bar -->
               <div class="row">
@@ -231,7 +229,6 @@
                     </div>
                     <div class="about-text">
                       <h4>Commitment</h4>
-                      <h4>to Innovation</h4>
                       <p>
                         Embracing innovation is at the heart of Go Ahead. Committed to staying at the forefront of industry trends and continuously improving our project management and consultancy services.
                       </p>
@@ -422,125 +419,61 @@
               </div>
               <div class="section-main-title">
                 <h2>
-                  Commitment
-                  <!-- End section title -->
-                </h2>
-                <h2>to Excellence</h2>
+                  Commitment to Excellence</h2>
               </div>
             </div>
             <!-- End section title -->
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <!-- start testimonial items box -->
-            <div class="testi-itmes-box">
-              <!-- <div class="testi-itmes-icon">
-							<i class="fas fa-quote-right"></i>
-						</div> -->
-						<div class="testi-items-title">
-							<h4>Client-Centric Excellence</h4>
-						  </div>
-              <!-- <div class="testi-items-content">
-                <div class="testi-items-title">
-                  <h4>Client-Centric Excellence</h4>
-                  <span>Manager</span>
-                </div>
-              </div> -->
-              <div class="testi-items-discription">
-                <p>
+        <div class="row"> 
+          
+            <div class="card col-lg-4 col-md-6 col-sm-12 p-4 border-0" >
+              <div class="border border-1 card-body">
+                <h5 class="card-title mb-30">							
+                  Client-Centric Excellence
+                </h5>
+                <p class="card-text">
                   At Go Ahead, we are committed to placing our clients at the
                   heart of everything we do. Our unwavering dedication to
                   excellence ensures your projects and business receive the
                   attention, precision, and success they deserve.
                 </p>
               </div>
-
-              <!-- <div class="testi-rating">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div> -->
             </div>
-            <!-- start testimonial items box -->
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <!-- start testimonial items box -->
-            <div class="testi-itmes-box">
-              <!-- <div class="testi-itmes-icon">
-							<i class="fas fa-quote-right"></i>
-						</div> -->
-              <div class="testi-items-title">
-                <h4>Passion for Success</h4>
-              </div>
-              <!-- <div class="testi-items-content">
-							
-							<div class="testi-items-title">
-								<h4>
-									
-
-								</h4>
-								<span>Manager</span>
-							</div>
-						</div> -->
-              <div class="testi-items-discription">
-                <p>
+           
+          
+          
+            <div class="card col-lg-4 col-md-6 col-sm-12 p-4 border-0" >
+              <div class="border border-1 card-body">
+                <h5 class="card-title mb-30">							
+                  Passion for Success                
+                </h5>
+                <p class="card-text">
                   Our team is not just about delivering services; it's about a
                   shared passion for success. Every project and business
                   challenge is an opportunity for us to showcase our dedication,
                   expertise, and commitment to ensuring your success.
                 </p>
               </div>
-
-              <!-- <div class="testi-rating">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div> -->
             </div>
-            <!-- start testimonial items box -->
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <!-- start testimonial items box -->
-            <div class="testi-itmes-box">
-              <!-- <div class="testi-itmes-icon">
-							<i class="fas fa-quote-right"></i>
-						</div> -->
-              <div class="testi-items-title">
-                <h4>Deadline Assurance</h4>
-              </div>
-              <!-- <div class="testi-items-content">
-							
-							<div class="testi-items-title">
-								<h4>Deadline Assurance
-
-								</h4>
-								<span>Manager</span>
-							</div>
-						</div> -->
-              <div class="testi-items-discription">
-                <p>
+            
+          
+          
+            <div class="card col-lg-4 col-md-6 col-sm-12 p-4 border-0" >
+              <div class="border border-1 card-body">
+                <h5 class="card-title mb-30">							
+                  Deadline Assurance                
+                </h5>
+                <p class="card-text">
                   At Go Ahead, we are committed to placing our clients at the
                   heart of everything we do. Our unwavering dedication to
                   excellence ensures your projects and business receive the
                   attention, precision, and success they deserve.
                 </p>
               </div>
-
-              <!-- <div class="testi-rating">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div> -->
             </div>
-            <!-- start testimonial items box -->
-          </div>
+            
+          
         </div>
       </div>
     </div>
@@ -647,9 +580,7 @@
               </div>
               <div class="footer-wiget-text">
                 <p>
-                  Go Ahead: Dynamic and Innovative End-to-End Project & Biz
-                  Support. Dedicated to providing comprehensive project
-                  management and technical support consultancy for your success.
+                  Go Ahead: Dynamic and Innovative End-to-End Project & Biz Support. Dedicated to providing comprehensive project management and technical support consultancy for your success.
                 </p>
               </div>
               <div class="footer-wiget-social">
@@ -680,13 +611,19 @@
               </div>
               <div class="footer-wiget-text">
                 <p>
-                  Jeddah
-                  <br />
-                  Kingdom of Saudi Arabia
+                  First Floor <br>
+                  Building No 7419 <br>
+                  Near Al Abeer Hospital<br>
+                  Khalid Bin Al Waleed Street <br>
+                  Central Jeddah <br> Kingdom of Saudi Arabia
                   <br />
                   <a href="mailto:info@goaheadxpert.com" style="color: white"
                     >info@goaheadxpert.com</a
                   >
+                  <br>
+                  <a href="mailto:goaheadxpert@gmail.com" style="color: white"
+                  >goaheadxpert@gmail.com</a
+                >
                   <br />
                   <a href="tel:+966592859139" style="color: white">
                     +966 592859139</a
@@ -705,13 +642,18 @@
               </div>
               <div class="footer-wiget-text">
                 <p>
-                  Manama
-                  <br />
-                  Kingdom of Bahrain
+                  Office 11<br>
+                  Building No 3689 <br>
+                  Road 0473<br>
+                  Central Manama<br> Kingdom of Bahrain
                   <br />
                   <a href="mailto:info@goaheadxpert.com" style="color: white"
                     >info@goaheadxpert.com</a
                   >
+                  <br>
+                   <a href="mailto:goaheadxpert@gmail.com" style="color: white"
+                  >goaheadxpert@gmail.com</a
+                >
                   <br />
                   <a href="tel:+97338106831" style="color: white">
                     +973 38106831</a
@@ -729,14 +671,15 @@
                 <h4>India</h4>
               </div>
               <div class="footer-wiget-text">
-                <p>
-                  Sand Bank Road
-                  <br />
-                  Vatakara , Calicut, Kerala India
+                <p>Sand Bank Road <br> Vatakara <br> Calicut <br> Kerala <br> India 
                   <br />
                   <a href="mailto:info@goaheadxpert.com" style="color: white"
                     >info@goaheadxpert.com</a
                   >
+                  <br>
+                   <a href="mailto:goaheadxpert@gmail.com" style="color: white"
+                  >goaheadxpert@gmail.com</a
+                >
                   <br />
                   <a href="tel:+919567238919" style="color: white">
                     +91 9567238919</a
@@ -749,10 +692,7 @@
         <div class="row mt-110">
           <div class="col-lg-6 col-md-12">
             <div class="copyright-text">
-              <p>
-                Copyright ©<a href="https://mirrorfolio.com/">mirrorfolio</a>
-                All Rights Reserved.
-              </p>
+              <p>Copyright ©<a href="https://mirrorfolio.com/">mirrorfolio</a> All Rights Reserved.</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-12">
@@ -856,6 +796,9 @@
 
     <!-- theme js -->
     <script src="assets/js/theme.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   </body>
 
