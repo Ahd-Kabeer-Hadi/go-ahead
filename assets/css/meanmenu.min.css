@@ -181,8 +181,8 @@ a.meanmenu-reveal {
 }
 .mean-container .mean-bar::before {
   color: transparent;
-  content: "Go ahead";
-  background: url('/assets/images/footer/footer-logo.png');
+  content: "";
+    background: url('../images/footer/footer-logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 28px;
